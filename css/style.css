@@ -1,0 +1,326 @@
+*{
+    margin:0px;
+    padding:0px;
+	box-sizing: border-box;
+	color: #707070;
+}
+header{
+    min-height: 64px;
+    display: flex;
+	background-color: #f8f6f6;
+	flex-direction: column;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+	width:35vw;
+	margin:0 auto;
+}
+#logo img{
+	width: 100%;
+}
+nav{
+	width: 100vw;
+	display: flex;
+}
+nav ul li{
+	float: right;
+	list-style: none;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 20px;
+}
+section{
+	width: 95vw;
+	min-height: 50vh;
+	margin-left: 3vw;
+	margin-top: 2vh;
+}
+section h1{
+	margin-left: 3vw;
+	font-size: 27px;
+	width: 100%;
+	margin-top: 6px;
+}
+section div{
+	margin-top: 2vh;	
+}
+section div p{
+	font-size: 20px;
+}
+#inf-img{
+	display: flex;
+	align-items: flex-end;
+}
+#inf-img div{
+	width: 50%;
+	border: 1px solid #707070;
+	margin-right: 2vw;
+}
+#inf-img div img{
+	width: 90%;
+}
+section h2{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f8f6f6;
+	width: 75%;
+	margin-left: 10vw;
+	line-height: 13vw;
+	text-align: center;
+}
+#web-design h2{
+	border-style: solid;
+	border-color: #32CD32;
+	border-top-width: 5px;
+	border-bottom-width: 0;
+	border-right-width: 0;
+	border-left-width: 0;
+}
+#web-design img{
+	margin-bottom: 5px;
+}
+#cursos {
+	border: 1px solid #707070;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 2vh;
+	min-height: 0;
+	width: 100%;
+}
+#cursos img{
+	width: 50%;
+	margin-left: 10vw;
+}
+#cursos img{
+	width: 70%;;
+}
+#programacao h2{
+	border-style: solid;
+	border-color: #CD3333;
+	border-top-width: 5px;
+	border-bottom-width: 0;
+	border-right-width: 0;
+	border-left-width: 0;
+}
+#programacao img{
+	margin-bottom: 5px;
+}
+#banco-dados h2{
+	border-style: solid;
+	border-color:#0000EE;
+	border-top-width: 5px;
+	border-bottom-width: 0;
+	border-right-width: 0;
+	border-left-width: 0;
+}
+#banco-dados img{
+	margin-bottom: 20px;
+}
+#planos{
+	border: 1px solid #707070;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	min-height: 0;
+	width: 100%;
+}
+#plano-bronze h2{
+	border-style: solid;
+	border-color:#C19915;
+	border-top-width: 15px;
+	border-bottom-width: 0;
+	border-right-width: 0;
+	border-left-width: 0;	
+}
+#plano-bronze span{
+	background-color: #C19915;
+	margin-left: 10vw;
+	margin-right: 15vw;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	display: flex;
+	border-bottom-width: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #c19915;
+	border-top-width: 8px;
+	border-top-style: solid;
+	border-top-color: #c19915;
+	font-weight: bold;
+
+}
+#plano-bronze ul li{
+	text-align: justify;
+	list-style: none;
+	background-color: white;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+#plano-bronze ul{
+	border-bottom-width: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #c19915;
+	margin-left: 10vw;
+	margin-right: 15vw;	
+}
+#plano-prata h2{
+	border-style: solid;
+	border-color: #dedede;
+	border-top-width: 15px;
+	border-bottom-width: 0;
+	border-right-width: 0;
+	border-left-width: 0;	
+	margin-top: 3vh;
+}
+#plano-prata span{
+	background-color:#dedede;
+	margin-left: 10vw;
+	margin-right: 15vw;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	display: flex;
+	border-bottom-width: 10px;
+	border-bottom-style: solid;
+	border-bottom-color:#dedede;
+	border-top-width: 8px;
+	border-top-style: solid;
+	border-top-color: #dedede;
+	font-weight: bold;
+}
+#plano-prata ul li{
+	text-align: justify;
+	list-style: none;
+	background-color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+#plano-prata ul{
+	border-bottom-width: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #dedede;
+	margin-left: 10vw;
+	margin-right: 15vw;
+}
+#plano-ouro h2{
+	border-style: solid;
+	border-color:#ffff00 ;
+	border-top-width: 15px;
+	border-bottom-width: 0;
+	border-right-width: 0;
+	border-left-width: 0;	
+	margin-top: 3vh;
+}
+#plano-ouro span{
+	background-color:#ffff00;
+	margin-left: 10vw;
+	margin-right: 15vw;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	display: flex;
+	border-bottom-width: 10px;
+	border-bottom-style: solid;
+	border-bottom-color:#ffff00;
+	border-top-width: 8px;
+	border-top-style: solid;
+	border-top-color: #ffff00;
+	font-weight: bold;
+}
+#plano-ouro ul li{
+	text-align: justify;
+	list-style: none;
+	background-color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+#plano-ouro ul{
+	border-bottom-width: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #ffff00;
+	margin-left: 10vw;
+	margin-right: 15vw;
+}
+#plano-ouro{
+	margin-bottom: 2vw;
+}
+#valores{
+	margin-left: 0;
+	border: 1px solid #707070;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	min-height: 0;
+	width: 100%;
+}
+#qualidade h2{
+	text-align: justify;
+	margin-left: 7px;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #4736E7;
+}
+#qualidade p{
+	margin-left: 17px;
+	margin-right: 17px;
+	text-align: justify;
+}
+#eficiencia h2{
+	text-align: justify;
+	margin-left: 7px;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #E92a2d;
+}
+#eficiencia p{
+	margin-left: 17px;
+	margin-right: 17px;
+	text-align: justify;
+}
+#compromisso h2{
+	text-align: justify;
+	margin-left: 7px;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #148014;	
+}
+#compromisso p{
+	margin-left: 17px;
+	margin-right: 17px;
+	text-align: justify;
+}
+#inovacao h2{
+	text-align: justify;
+	margin-left: 7px;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #fffb85;
+}
+#inovacao p{
+	margin-left: 17px;
+	margin-right: 17px;
+	text-align: justify;
+}
+#pesquisa h2{
+	text-align: justify;
+	margin-left: 7px;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #E53eec;	
+}
+#pesquisa p{
+	margin-left: 17px;
+	margin-right: 17px;
+	text-align: justify;
+}
+#mab h2{
+	text-align: justify;
+	margin-left: 7px;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #4ebce6;		
+}
+#mab p{
+	margin-left: 17px;
+	margin-right: 17px;
+	text-align: justify;
+}
